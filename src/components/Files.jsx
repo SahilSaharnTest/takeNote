@@ -170,7 +170,7 @@ function Files(props) {
   return (<>
     <motion.div
 
-      transition={{delay : 0.4 }}
+      transition={{delay : 0.4  }}
       exit={{
         x: -750, opacity: 0, transition: {
           duration: 0.5
