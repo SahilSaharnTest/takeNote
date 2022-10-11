@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/takeNote/static/css/main.44a7d9b6.css",
+    "main.js": "/takeNote/static/js/main.2dd49101.js",
+    "static/js/787.bbda9e80.chunk.js": "/takeNote/static/js/787.bbda9e80.chunk.js",
+    "index.html": "/takeNote/index.html",
+    "main.44a7d9b6.css.map": "/takeNote/static/css/main.44a7d9b6.css.map",
+    "main.2dd49101.js.map": "/takeNote/static/js/main.2dd49101.js.map",
+    "787.bbda9e80.chunk.js.map": "/takeNote/static/js/787.bbda9e80.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44a7d9b6.css",
+    "static/js/main.2dd49101.js"
+  ]
+}
