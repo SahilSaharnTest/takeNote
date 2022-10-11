@@ -1,0 +1,71 @@
+
+.vertical-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.title-heading{
+    text-align: center;
+    font-size: 10rem;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.title-heading:hover{
+    color:#f8edff;
+}
+
+.para-text{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 70%;
+    padding: 0px 4.5rem;
+}
+
+.enter-link{
+    text-decoration: none;
+    font-family: 'Chakra Petch', sans-serif; 
+    margin: 1.5rem;
+    font-size: 2.5rem;
+    color :#decadf;
+    border: 2px solid #decadf;
+    border-radius: 0.5rem;
+    padding: 0.2rem 1rem;
+    transition: all 0.5s;
+    background-color : #2c2c55;
+}
+
+.enter-link:hover{
+    transform: translate(0px ,-5px);
+    color:#2c2c55;
+    background-color: #decadf;
+    border: 2px solid #2c2c55;
+    box-shadow: -7px 7px 0px #1e1e3b;
+}
+
+.fotter{
+    text-align: center;
+    background-color: #1f1f3c;
+    font-size: 1.5rem;
+    padding: 0.3rem 0px;
+    position: fixed;
+    bottom:0;
+    width :100%
+    
+}
+.fotter-link{
+    text-decoration: none;
+    transition:  all 0.2s;
+}
+
+.fotter-link:hover{
+    color:#decadfb5;
+    transform: scale(0.9);
+}

@@ -1,0 +1,13 @@
+
+
+.cont-ainer{
+    text-align:center;
+    display :inline;
+    font-size:1.7rem;
+    position :fixed;
+    right:2rem;
+    top :1rem;
+    padding :0.4rem 1rem;
+    border-radius :2rem;
+    box-shadow : 2px 7px 0px #1e1e3b;
+}

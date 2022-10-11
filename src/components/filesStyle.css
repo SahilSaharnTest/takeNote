@@ -1,0 +1,80 @@
+
+/* BsFillFileEarmarkFill -> file icon or RiFile3Fill*/
+/* RiFileAddFill -> add file icon  */
+/* BsFillPencilFill -> edit icon or RiEdit2Fill */
+/* RiDeleteBinFill -> to delete file */
+
+
+
+.your-files-title {
+    text-align: center;
+    font-size: 6rem;
+    margin: 2rem 0rem;
+}
+
+.file-card {
+    display :flex;
+    width :60%;
+    justify-content:space-around;
+    align-items :center;
+    background-color :#decadf;
+    margin :1.5rem auto;
+    border-radius: 0.5rem;
+    padding :0.3rem 1rem;
+    transition: all 0.3s;
+}
+
+.file-card:hover{
+    transform: scale(1.02) translate(0px ,-2px);
+    box-shadow: -5px 8px 0px #1e1e3b;
+}
+
+.a-file {
+    font-size:2.1rem;
+    text-align: center;
+}
+
+.a-icon {
+    margin : 0rem 0.5rem;
+    font-size:2.5rem;
+    cursor :pointer;
+    transition: all 0.2s;
+}
+
+.a-icon:hover{
+    color:#50509d;
+    transform: scale(1.15) rotate(7deg) ;
+}
+
+.add-file-btn{
+    border :none;
+    background-color: #50509d00;
+    position: fixed;
+    bottom: 5%;
+    left : 47%;
+}
+
+.add-icon{
+    border: 2px solid #decadf;
+    border-radius: 50%;
+    font-size: 5rem;
+    padding: 0.7rem;
+    transition: all 0.4s;
+}
+
+.add-icon:hover{
+    color: #2c2c55;
+    background-color: #decadf;
+    transform: scale(1.1) rotate(-180deg);
+    box-shadow: 3px -7px 0px #1e1e3b;
+
+}
+
+.no-file-txt{
+    text-align: center;
+    font-size: 3.5rem;
+    color:#decadf4a;
+    margin-top :10rem;
+}
+
+
